@@ -1,0 +1,19 @@
+p{
+    align-items: center;
+}
+
+#divBtn{
+    display: flex;
+  justify-content: center;
+}
+
+button {
+    display: block;
+    padding: 0.5rem 1rem;
+    width: 200px;
+    margin: 0 auto;
+  }
+
+textarea{
+    text-align: center;
+}
