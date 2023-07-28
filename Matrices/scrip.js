@@ -39,15 +39,14 @@ function actionButton(){
                 }
             }
             
-            for(let i=0;i<resultado.length;i++){
+            for(let i=0;i<fila_m1;i++){
     
-                for (let j=0;j<resultado.length;j++){
+                for (let j=0;j<col_m2;j++){
                     respuesta.value+= resultado [i][j]+" "
                    
                 }
                 respuesta.value+="\n";
-            }
-            
+                }
             }
         }
 
